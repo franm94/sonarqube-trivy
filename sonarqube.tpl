@@ -29,7 +29,7 @@
       "type": "VULNERABILITY",
       "primaryLocation": {
         "message": "{{ .PkgName }} - {{ .VulnerabilityID }} ",
-        "filePath": "Dockerfile"
+        "filePath": "dockerfileAKS"
       }
     }
     
