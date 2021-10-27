@@ -28,8 +28,7 @@
                   {{- end }},
       "type": "VULNERABILITY",
       "primaryLocation": {
-        "message": "{{ .PkgName }} - {{ .VulnerabilityID }} ",
-        "filePath": "pom.xml"
+        "message": "{{ .PkgName }} - {{ .VulnerabilityID }} "
       }
     }
     
