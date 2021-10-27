@@ -29,7 +29,7 @@
       "type": "VULNERABILITY",
       "primaryLocation": {
         "message": "{{ .PkgName }} - {{ .VulnerabilityID }} ",
-        "filePath": "Domain.cs"
+        "filePath": "pom.xml"
       }
     }
     
