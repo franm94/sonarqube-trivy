@@ -28,7 +28,8 @@
                   {{- end }},
       "type": "VULNERABILITY",
       "primaryLocation": {
-        "message": "{{ .PkgName }} - {{ .VulnerabilityID }} "
+        "message": "{{ .PkgName }} - {{ .VulnerabilityID }} ",
+        "filePath": "server.js"
       }
     }
     
