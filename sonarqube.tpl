@@ -28,8 +28,8 @@
                   {{- end }},
       "type": "VULNERABILITY",
       "primaryLocation": {
-        "message": "{{ .PkgName }} - {{ .VulnerabilityID }} ",
-        "filePath": "Inframanager.Domain/Domain.cs"
+        "message": "{{ .PkgName }} - {{ .VulnerabilityID }} - {{ regexReplaceAll "\\W+" .Title "" }}",
+        "filePath": "dockerfileAKS"
       }
     }
     
