@@ -28,7 +28,7 @@
                   {{- end }},
       "type": "VULNERABILITY",
       "primaryLocation": {
-        "message": "{{ .PkgName }} - {{ .VulnerabilityID }} - {{ regexReplaceAll "/['"]+/g, ''" .Title "" }}"",
+        "message": "{{ .PkgName }} - {{ .VulnerabilityID }} - {{ .Title | replace """, "" }}",
         "filePath": "dockerfileAKS"
       }
     }
